@@ -23,6 +23,6 @@ readFile('foo.txt')
 # YOUR CODE HERE
 def writeFile(file):
     f = open(file, 'w')
-    f.write('This is a test')
+    f.write('This is a test2')
     f.close()
 writeFile("bar.txt")
